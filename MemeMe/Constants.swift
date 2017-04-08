@@ -13,4 +13,6 @@ let memeTextAttributes:[String:Any] = [
     NSStrokeColorAttributeName: UIColor.black,
     NSForegroundColorAttributeName: UIColor.white,
     NSFontAttributeName: UIFont(name: "HelveticaNeue-CondensedBlack", size: 40)!,
-    NSStrokeWidthAttributeName: 3.0]
+    NSStrokeWidthAttributeName: -3.0]
+
+let ad = UIApplication.shared.delegate as! AppDelegate
